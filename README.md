@@ -1,5 +1,9 @@
-vagrant-xe11g
+Oracle Linux 7 + Vagrant + Oracle XE 11g
 =============
+
+Version 1.0.2 - Notes
+Changes to oracle 7 box
+
 
 Version 1.0.1 - Notes
 
