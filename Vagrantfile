@@ -10,12 +10,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = ""centos-6.4-x86_64""
+  config.vm.box = "oraclelinux-7-x86_64"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
   # config.vm.box_url = "http://domain.com/path/to/above.box"
-  config.vm.box_url = "https://dl.dropboxusercontent.com/u/97268835/boxes/centos-6.4-x86_64.box"
+  config.vm.box_url = "http://cloud.terry.im/vagrant/oraclelinux-7-x86_64.box"
 
 
 
@@ -23,7 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # config.vm.network :forwarded_port, guest: 80, host: 8080
-  config.vm.hostname = "xe11g.example.com"
+  config.vm.hostname = "laop.server"
   config.vm.network :forwarded_port, guest: 8080, host: 8080
   config.vm.network :forwarded_port, guest: 1521, host: 1521
   
